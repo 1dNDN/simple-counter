@@ -27,6 +27,11 @@ module some_source(
     
     initial count = 0;
     
-    always @(posedge clk) count = count + 1;
+    always @(posedge clk) 
+    begin
+        count = count + 1;
+        $display(count);
+    end
+    
     
 endmodule
