@@ -22,17 +22,13 @@
 
 module counter_tb(
     output reg clk);
-    
-    always
-        begin
-            clk = 1'b1;
-            #1;
-            clk = 1'b0;
-            #1;
-        end
         
-    wire count;
     initial begin
+        clk = 1'b0;
+        forever # 1 clk = ~ clk;
+    
         counter(clk);
+        
+        # 20 $finish;
     end
 endmodule
