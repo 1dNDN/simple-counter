@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sat Apr  8 00:50:16 2023
-# Process ID: 7012
+# Start of session at: Sat Apr  8 00:27:28 2023
+# Process ID: 26324
 # Current directory: C:/Users/nikit/verilogProjects/counter/counter.runs/synth_1
 # Command line: vivado.exe -log counter_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter_tb.tcl
 # Log file: C:/Users/nikit/verilogProjects/counter/counter.runs/synth_1/counter_tb.vds

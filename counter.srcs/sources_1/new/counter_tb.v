@@ -8,11 +8,7 @@ module counter_tb(
     initial forever # 1 clk = ~ clk;  
     
     wire[31:0] count;
-    
     counter counter(count, clk);
             
-    initial begin
-        
-        # 20 $finish;
-    end
+    initial # 20 $finish;
 endmodule

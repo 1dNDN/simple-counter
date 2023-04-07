@@ -5,7 +5,7 @@
 preplace inst counter_0 -pg 1 -lvl 2 -y -30 -defaultsOSRD
 preplace inst counter_tb_0 -pg 1 -lvl 1 -y -30 -defaultsOSRD
 preplace netloc counter_tb_0_clk 1 1 1 N
-levelinfo -pg 1 -20 80 260 370 -top -190 -bot 120
+levelinfo -pg 1 -20 80 270 380 -top -190 -bot 120
 ",
 }
-
+0
