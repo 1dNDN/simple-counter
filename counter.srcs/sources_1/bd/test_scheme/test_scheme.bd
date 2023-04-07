@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x0" bd:device="xc7vx485tffg1157-1" bd:synthFlowMode="Hierarchical" bd:tool_version="2018.2" bd:top="test_scheme" bd:version="1.00.a">
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x6B786CA76B786CA7" bd:device="xc7vx485tffg1157-1" bd:synthFlowMode="Hierarchical" bd:tool_version="2018.2" bd:top="test_scheme" bd:version="1.00.a">
 
   <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
     <spirit:vendor>xilinx.com</spirit:vendor>
@@ -30,22 +30,22 @@
     <spirit:version>1.00.a</spirit:version>
     <spirit:componentInstances>
       <spirit:componentInstance>
-        <spirit:instanceName>counter_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="module_ref" spirit:name="counter" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>counter_tb_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="counter_tb" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">test_scheme_counter_0_1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">counter</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">test_scheme_counter_tb_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">counter_tb</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>counter_tb_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="module_ref" spirit:name="counter_tb" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:instanceName>counter_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="counter" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">test_scheme_counter_tb_0_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">counter_tb</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">test_scheme_counter_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">counter</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>

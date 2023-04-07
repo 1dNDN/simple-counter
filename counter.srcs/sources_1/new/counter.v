@@ -1,19 +1,15 @@
 `timescale 1ns / 1ps
 
 module counter(
-    input clk,
-    output count
+    output reg[31:0] count,
+    input wire clk
     );
-    
-    wire clk;
-    reg count;
-    
+   
     initial count = 0;
     
     always @(posedge clk) 
     begin
         count = count + 1;
-        $display(count);
     end
     
     
