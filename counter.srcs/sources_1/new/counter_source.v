@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 07.04.2023 20:12:20
+// Create Date: 07.04.2023 21:05:01
 // Design Name: 
-// Module Name: some_source
+// Module Name: counter_source
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -22,7 +22,11 @@
 
 module some_source(
     input clk,
-    input count_in,
-    output count_out
+    output reg count
     );
+    
+    initial count = 0;
+    
+    always @(posedge clk) count = count + 1;
+    
 endmodule
