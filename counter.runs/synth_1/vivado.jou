@@ -2,11 +2,11 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri Apr  7 21:52:38 2023
-# Process ID: 27148
+# Start of session at: Fri Apr  7 22:55:39 2023
+# Process ID: 17152
 # Current directory: C:/Users/nikit/verilogProjects/counter/counter.runs/synth_1
-# Command line: vivado.exe -log some_source.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source some_source.tcl
-# Log file: C:/Users/nikit/verilogProjects/counter/counter.runs/synth_1/some_source.vds
+# Command line: vivado.exe -log counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter.tcl
+# Log file: C:/Users/nikit/verilogProjects/counter/counter.runs/synth_1/counter.vds
 # Journal file: C:/Users/nikit/verilogProjects/counter/counter.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source some_source.tcl -notrace
+source counter.tcl -notrace
