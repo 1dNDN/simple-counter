@@ -2,10 +2,12 @@
    ExpandedHierarchyInLayout: "",
    guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS-threadsafe
 #  -string -flagsOSRD
-preplace inst counter_0 -pg 1 -lvl 2 -y -30 -defaultsOSRD
-preplace inst counter_tb_0 -pg 1 -lvl 1 -y -30 -defaultsOSRD
-preplace netloc counter_tb_0_clk 1 1 1 N
-levelinfo -pg 1 -20 80 270 380 -top -190 -bot 120
+preplace port clk_100MHz -pg 1 -y -20 -defaultsOSRD
+preplace inst counter_0 -pg 1 -lvl 1 -y -20 -defaultsOSRD
+preplace netloc clk_100MHz_1 1 0 1 N
+levelinfo -pg 1 -40 120 560 -top -210 -bot 120
 ",
 }
-0
+{
+   da_clkrst_cnt: "3",
+}
