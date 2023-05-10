@@ -12,32 +12,6 @@
         <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
       </spirit:parameter>
     </spirit:parameters>
-    <spirit:busInterfaces>
-      <spirit:busInterface>
-        <spirit:name>CLK.CLK_100MHZ</spirit:name>
-        <spirit:displayName>Clk</spirit:displayName>
-        <spirit:description>Clock</spirit:description>
-        <spirit:busType spirit:library="signal" spirit:name="clock" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:abstractionType spirit:library="signal" spirit:name="clock_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
-        <spirit:slave/>
-        <spirit:portMaps>
-          <spirit:portMap>
-            <spirit:logicalPort>
-              <spirit:name>CLK</spirit:name>
-            </spirit:logicalPort>
-            <spirit:physicalPort>
-              <spirit:name>clk_100MHz</spirit:name>
-            </spirit:physicalPort>
-          </spirit:portMap>
-        </spirit:portMaps>
-        <spirit:parameters>
-          <spirit:parameter>
-            <spirit:name>FREQ_HZ</spirit:name>
-            <spirit:value>100000000</spirit:value>
-          </spirit:parameter>
-        </spirit:parameters>
-      </spirit:busInterface>
-    </spirit:busInterfaces>
     <spirit:model>
       <spirit:views>
         <spirit:view>
@@ -46,14 +20,6 @@
           <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="test_scheme_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
         </spirit:view>
       </spirit:views>
-      <spirit:ports>
-        <spirit:port>
-          <spirit:name>clk_100MHz</spirit:name>
-          <spirit:wire>
-            <spirit:direction>in</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-      </spirit:ports>
     </spirit:model>
   </spirit:component>
 
@@ -75,13 +41,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
-    <spirit:adHocConnections>
-      <spirit:adHocConnection>
-        <spirit:name>clk_100MHz_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="clk_100MHz"/>
-        <spirit:internalPortReference spirit:componentRef="counter_0" spirit:portRef="clk"/>
-      </spirit:adHocConnection>
-    </spirit:adHocConnections>
   </spirit:design>
 
 </bd:repository>

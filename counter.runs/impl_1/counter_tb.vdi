@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 10 08:03:57 2023
+# Process ID: 21024
+# Current directory: C:/Users/nikit/verilogProjects/counter/counter.runs/impl_1
+# Command line: vivado.exe -log counter_tb.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter_tb.tcl -notrace
+# Log file: C:/Users/nikit/verilogProjects/counter/counter.runs/impl_1/counter_tb.vdi
+# Journal file: C:/Users/nikit/verilogProjects/counter/counter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source counter_tb.tcl -notrace
+Command: link_design -top counter_tb -part xc7vx485tffg1157-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 793.855 ; gain = 482.691
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 797.258 ; gain = 2.379
+
+Starting Cache Timing Information Task
